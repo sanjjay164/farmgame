@@ -22,7 +22,7 @@ var TOTAL_TURNS = "<?php echo TOTAL_TURNS ?>";
 		</div>
 		<div class="row">
 			<div class="col-md-2">
-				<input type="button" onClick="play()" value="Play" class="btn btn-success">
+				<input type="button" onClick="play()"  id="sub_play" value="Play" class="btn btn-success">
 				<button type="button" id="restart" class="btn btn-danger" onClick="location.reload();">Restart</button>
 			</div>
 			<div class="col-md-2">
