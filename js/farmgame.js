@@ -25,6 +25,7 @@ function play()
 						if(typeof(response.d.game_over) != "undefined" && response.d.game_over=="1")
 						{
 							alert(response.m);
+							$("#sub_play").prop("disabled",true);
 							//location.reload();
 							return;
 						}
